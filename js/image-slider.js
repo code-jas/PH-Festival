@@ -140,46 +140,46 @@ function changeInfo(direction) {
    let previousInfoEl = cardInfosContainerEl.querySelector(".previous--info");
    let nextInfoEl = cardInfosContainerEl.querySelector(".next--info");
 
-   // gsap.timeline()
-   //    .to([buttons.prev, buttons.next], {
-   //       duration: 0.2,
-   //       opacity: 0.5,
-   //       pointerEvents: "none",
-   //    })
-   //    .to(
-   //       currentInfoEl.querySelectorAll(".text"),
-   //       {
-   //          duration: 0.4,
-   //          stagger: 0.1,
-   //          translateY: "-120px",
-   //          opacity: 0,
-   //       },
-   //       "-="
-   //    )
-   //    .call(() => {
-   //       swapInfosClass(direction);
-   //    })
-   //    .call(() => initCardEvents())
-   //    .fromTo(
-   //       direction === "right"
-   //          ? nextInfoEl.querySelectorAll(".text")
-   //          : previousInfoEl.querySelectorAll(".text"),
-   //       {
-   //          opacity: 0,
-   //          translateY: "40px",
-   //       },
-   //       {
-   //          duration: 0.4,
-   //          stagger: 0.1,
-   //          translateY: "0px",
-   //          opacity: 1,
-   //       }
-   //    )
-   //    .to([buttons.prev, buttons.next], {
-   //       duration: 0.2,
-   //       opacity: 1,
-   //       pointerEvents: "all",
-   //    });
+   gsap.timeline()
+      .to([buttons.prev, buttons.next], {
+         duration: 0.2,
+         opacity: 0.5,
+         pointerEvents: "none",
+      })
+      .to(
+         currentInfoEl.querySelectorAll(".text"),
+         {
+            duration: 0.4,
+            stagger: 0.1,
+            translateY: "-120px",
+            opacity: 0,
+         },
+         "-="
+      )
+      .call(() => {
+         swapInfosClass(direction);
+      })
+      .call(() => initCardEvents())
+      .fromTo(
+         direction === "right"
+            ? nextInfoEl.querySelectorAll(".text")
+            : previousInfoEl.querySelectorAll(".text"),
+         {
+            opacity: 0,
+            translateY: "40px",
+         },
+         {
+            duration: 0.4,
+            stagger: 0.1,
+            translateY: "0px",
+            opacity: 1,
+         }
+      )
+      .to([buttons.prev, buttons.next], {
+         duration: 0.2,
+         opacity: 1,
+         pointerEvents: "all",
+      });
 
    function swapInfosClass() {
       currentInfoEl.classList.remove("current--info");
