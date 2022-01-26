@@ -58,7 +58,7 @@
             <div class="nav-menu">
                <ul class="sub-nav-menu">
                   <li class="nav-item"><a href="index.html" accesskey="1" tabindex="1" class="nav-link">Home</a></li>
-                  <li class="nav-item"><a href="festival.html" accesskey="2" tabindex="2" class="nav-link">Festival</a>
+                  <li class="nav-item"><a href="Festival-Gallery.php" accesskey="2" tabindex="2" class="nav-link">Festival</a>
                   </li>
                   <li class="nav-item"><a href="aboutus.html" accesskey="3" tabindex="3" class="nav-link">About
                         Us</a></li>
@@ -136,7 +136,7 @@
                <ul class="footer-link">
                   <li><a href="#home">Home</a></li>
                   <span class="footer-bar"></span>
-                  <li><a href="festival.html">Festival</a></li>
+                  <li><a href="Festival-Gallery.php">Festival</a></li>
                   <span class="footer-bar"></span>
                   <li><a href="aboutus.html">About Us</a></li>
                </ul>

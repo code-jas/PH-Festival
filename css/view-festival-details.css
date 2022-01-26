@@ -195,19 +195,3 @@
 /**************************    Festival Videos - end     ***********************************/
 
 /************************************************    Festival End - end     ***************************************************/
-.content-fest-link-source {
-  display: flex;
-  justify-content: center;
-  padding: 0.5rem;
-  margin: 1rem auto;
-  background-color: var(--dark-blue-alt);
-  width: 80px;
-  border-radius: 50px;
-  cursor: pointer;
-}
-
-.content-fest-link-source a {
-  text-decoration: none;
-  color: white;
-  font-size: 0.7rem;
-}
