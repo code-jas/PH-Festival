@@ -16,6 +16,11 @@
 //       imgItem4: "../Festival-Project/img/fest-gallery/higantes-img5.jpg",
 //       ytPath: "https://www.youtube.com/watch?v=SLHnteboJhA",
 //       reference: "https://www.zenrooms.com/blog/post/higantes-festival/"
+         webSrc_img: ""
+         webSrc_img1:      
+         webSrc_img2:
+         webSrc_img3:
+         webSrc_img4:
 //    },
 
 //    {
