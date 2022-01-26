@@ -17,10 +17,10 @@
 //       ytPath: "https://www.youtube.com/watch?v=SLHnteboJhA",
 //       reference: "https://www.zenrooms.com/blog/post/higantes-festival/"
          webSrc_img: ""
-         webSrc_img1:      
-         webSrc_img2:
-         webSrc_img3:
-         webSrc_img4:
+         webSrc_img1: ""     
+         webSrc_img2: ""
+         webSrc_img3: ""
+         webSrc_img4: ""
 //    },
 
 //    {
@@ -417,6 +417,11 @@
 //       imgItem4: "../Festival-Project/img/fest-gallery/lubid-img5.jpg",
 //       ytPath: "https://www.youtube.com/watch?v=Euqwq6ZNGFE",
 //       reference: "https://newsinfo.inquirer.net/705721/lubid-takes-center-stage-in-town-fiesta"
+         webSrc_img: "",
+         webSrc_imgItem1: "", 
+         webSrc_imgItem2: "",
+         webSrc_imgItem3: "", 
+         webSrc_imgItem4: "",     
 //    },
 //    {
 //       id: 24,

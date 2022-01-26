@@ -1,7 +1,7 @@
 <?php
 
 
-   $view_query = mysqli_query($conn,"SELECT * FROM festival_details");
+   $view_query = mysqli_query($conn,"SELECT * FROM festival_details_v2");
          echo '
             <script>
                const festivalContent = [
@@ -17,11 +17,11 @@
             $db_paragraph2 = $row["paragraph2"];
             $db_paragraph3 = $row["paragraph3"];
             $db_paragraph4 = $row["paragraph4"];
-            $db_img = $row["img"];
-            $db_imgItem1 = $row["imgItem1"];
-            $db_imgItem2 = $row["imgItem2"];
-            $db_imgItem3 = $row["imgItem3"];
-            $db_imgItem4 = $row["imgItem4"];
+            $db_img = $row["webSrc_img"];
+            $db_imgItem1 = $row["webSrc_imgItem1"];
+            $db_imgItem2 = $row["webSrc_imgItem2"];
+            $db_imgItem3 = $row["webSrc_imgItem3"];
+            $db_imgItem4 = $row["webSrc_imgItem4"];
             $db_ytPath = $row["ytPath"];
             $db_ref = $row["ref"];
 
