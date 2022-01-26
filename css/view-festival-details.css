@@ -1,3 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;900&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400;1,600;1,700&display=swap");
+:root {
+  --light-gray: #f0f2f7;
+  --light-gray-alt: #e4e7ef;
+  --dark-gray: #b9bed1;
+  --dark-gray-alt: #a1a6bb;
+  --dark-blue: #2a405b;
+  --dark-blue-alt: #222328;
+  --blue: #3b55e6;
+  --blue-alt: #334cd5;
+  --yellow: #f3d351;
+  --yellow-alt: #ebc63b;
+  --orange: #fe5339;
+  --orange-alt: #eb4e36;
+  --aqua: #51dae7;
+  --aqua-alt: #32cdda;
+  --green: #4be1ab;
+  --green-alt: #42d29e;
+  --line-border-fill: #9c27b0;
+  --line-border-empty: #bdbdbd;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 /************************************************    back menu - start     ***************************************************/
 
 .back-menu {
@@ -7,6 +37,7 @@
   padding: 5px;
 }
 .back {
+  color: var(--dark-blue-alt);
   border: none;
   background-color: transparent;
   font-size: 1rem;
@@ -22,7 +53,7 @@
   transform: scale(1.05);
 }
 .back:not(:disabled):hover:active {
-  transform: scale(1.05) translateY(0.125rem);
+  transform: scale(1.05) translateX(-0.225rem);
 }
 
 .back:focus:before {
@@ -34,19 +65,16 @@
   transition: border-radius;
   user-select: none;
 }
-
-.article-logo {
-  position: relative;
-  color: var(--dark-blue-alt);
-  padding: 0.5rem 0;
+.img-branding {
+  margin: 0.4rem 0;
 }
+
 /************************************************    back menu - end     ***************************************************/
 
 /************************************************    Festival Start - end     ***************************************************/
 .fest-container {
   max-width: 1200px;
   margin: 2rem auto;
-
   background-color: white;
 }
 
@@ -65,22 +93,21 @@
 }
 
 .fest-header {
-  max-width: 1000px;
   display: flex;
   justify-content: center;
   font-size: 7rem;
   font-weight: 900;
-  text-transform: uppercase;
   text-align: center;
   letter-spacing: 6px;
-  /* 
-  background: url(../img/fest-activities1.1.jpg) 50% 50%; */
+  margin: 0;
+  text-transform: uppercase;
+  /* background: url(img/try.jpg) 50% 50%; */
   background-size: cover;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
-  text-shadow: 0px 2px 9px #22232858;
-  margin: 1rem auto;
+  text-shadow: 3px 3px 7px rgba(12, 12, 12, 0.3);
+  margin: 1rem 0;
 }
 .fa-map-marker-alt {
   padding-right: 0.5rem;
@@ -126,7 +153,6 @@
 
 .image {
   max-width: 100%;
-  width: 100%;
   height: auto;
   margin: 2rem 0;
   padding: 0 2rem;
@@ -193,5 +219,93 @@
   height: 100%;
 }
 /**************************    Festival Videos - end     ***********************************/
+/**************************    Festival references - start     ***********************************/
+.content-fest-link-source {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  margin: 3rem auto 1rem auto;
+  background-color: white;
+  width: 120px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: var(--light-gray-alt) 0.5px solid;
+  transition: transform 0.2s;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--dark-gray-alt);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
 
+.content-fest-link-source:hover {
+  transform: scale(1.05) translateY(0.125rem);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.22);
+  border: 0;
+}
+/**************************    Festival references - end     ***********************************/
 /************************************************    Festival End - end     ***************************************************/
+
+/* responsive */
+
+@media only screen and (max-width: 860px) {
+  /* .back i {
+  } */
+  .back {
+    font-size: 0.9rem;
+    left: 25px;
+  }
+  .fest-header {
+    font-size: 12vw;
+  }
+  .fest-parag-cont {
+    width: 85%;
+  }
+  .content-fest-link-source {
+    margin: 3rem auto 0 auto;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .back {
+    font-size: 2.3rem;
+    top: 5.5px;
+    left: 25px;
+  }
+  .back-hide {
+    display: none;
+  }
+  .img-branding {
+    margin: 0.3rem 0;
+  }
+  .back:not(:disabled):hover:active {
+    transform: scale(1.05) translateX(-0.325rem);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .fest-header {
+    font-size: 11vw;
+  }
+
+  .fest-island-group {
+    width: 5rem;
+    font-size: 0.6rem;
+  }
+  .fest-date {
+    font-size: 0.7rem;
+  }
+  .fest-loc {
+    width: 8rem;
+    font-size: 0.6rem;
+  }
+  .content-fest-link-source {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .back {
+    font-size: 2.1rem;
+    top: 5.5px;
+    left: 25px;
+  }
+}

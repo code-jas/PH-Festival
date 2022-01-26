@@ -101,7 +101,7 @@
 
                </div>
                <main class="fest-gallery-main">
-                  <div class="festival-card">
+                  <!-- <div class="festival-card">
                      <div class="img-box">
                         <img src="../Festival-Project/img/fest-gallery/kadayawan-img1.jpg" alt="">
                      </div>
@@ -113,7 +113,7 @@
                            </p>
                         </div>
                      </div>
-                  </div>
+                  </div> -->
                </main>
             </div>
          </div>

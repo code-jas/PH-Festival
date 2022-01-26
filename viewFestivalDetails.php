@@ -41,7 +41,8 @@ include("./php/db_conn.php");
       <a href="Festival-Gallery.php">
          <button class="back" role="button">
             <i class="fas fa-angle-left"></i>
-            back to festivals
+            <span class="back-hide">back to festivals</span>
+           
          </button>
       </a>
       <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="article-logo"><img class="img-branding"

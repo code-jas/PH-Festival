@@ -69,30 +69,7 @@
               
                <a  class=\"content-fest-link-source\" href=\"$db_ref\">reference</a>
               
-               <style>
-                     .content-fest-link-source {
-                        display: flex;
-                        justify-content: center;
-                        padding: 0.5rem;
-                        margin: 3rem auto 1rem auto;
-                        background-color: white;
-                        width: 120px;
-                        border-radius: 50px;
-                        cursor: pointer;
-                        border: var(--light-gray-alt) 0.5px solid;
-                        transition: transform 0.2s;
-                        font-weight: 500;
-                        text-decoration: none;
-                        color: var(--dark-gray-alt);
-                        font-size: 0.7rem;
-                        text-transform: uppercase;
-                     }
-                     .content-fest-link-source:hover {
-                        transform: scale(1.05) translateY(0.125rem);
-                        box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.22);
-                        border: 0;
-                     }
-               </style>
+            
             </div>
 
 
