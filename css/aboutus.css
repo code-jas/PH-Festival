@@ -1,5 +1,5 @@
 .about-main {
-  background-image: url(https://firebasestorage.googleapis.com/v0/b/festival-img.appspot.com/o/fest-features%2Fbg-about-section-desktop-view.jpg?alt=media&token=d56f34f4-5d08-4099-b661-7b6a0bb73429);
+  background-image: url(../img/bg-about-section-desktop-view.jpg);
   background-size: cover;
   background-position: top;
   min-height: 3240px;
@@ -423,7 +423,7 @@
   height: 200px;
   margin: 1rem auto;
   border-radius: 15px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 40px -20px;
+  box-shadow: rgba(165, 41, 41, 0.25) 0px 25px 40px -20px;
   overflow: hidden;
   transition: all 0.3s ease;
 }
@@ -445,7 +445,7 @@
 
 @media only screen and (max-width: 1400px) {
   .about-main {
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/festival-img.appspot.com/o/fest-features%2Fbg-about-section-laptop-view.jpg?alt=media&token=036ebace-f115-45b0-91b2-5e0c09e41cd7);
+    background-image: url(/Festival-Project/img/bg-about-section-mobile-view.jpg);
     min-height: 2200px;
   }
 

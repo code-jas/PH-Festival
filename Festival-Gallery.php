@@ -49,7 +49,7 @@
       <!-- start | In Line navigation bar -->
       <header class="sticky">
          <nav class="navbar">
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="nav-branding"><img class="img-branding"
+            <a href="index.html" class="nav-branding"><img class="img-branding"
                   src="./img/logo/Festival Ph - Logo 96x96.png" alt="Festival Ph Logo" /><img class="img-branding"
                   src="https://fontmeme.com/permalink/220111/85ccb88541790fd7b5db3b2d38a6081d.png" alt="logo"
                   border="0">
