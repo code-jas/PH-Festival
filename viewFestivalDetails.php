@@ -38,14 +38,14 @@ include("./php/db_conn.php");
 
    <!-- start | Back to menu -->
    <div class="back-menu">
-      <a href="Festival-Gallery.php">
+      <a href="javascript:history.back()">
          <button class="back" role="button">
             <i class="fas fa-angle-left"></i>
             <span class="back-hide">back to festivals</span>
            
          </button>
       </a>
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="article-logo"><img class="img-branding"
+      <a href="index.html" class="article-logo"><img class="img-branding"
                   src="https://fontmeme.com/permalink/220125/375222261753d51cbf70b11aab7efd62.png" alt="logo"
                   border="0">
             </a>

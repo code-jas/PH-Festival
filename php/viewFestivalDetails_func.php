@@ -3,7 +3,7 @@
 
    $user_id = $_REQUEST["id"];
 
-   $get_record = mysqli_query($conn , "SELECT * FROM festival_details_v3 WHERE id='$user_id'");
+   $get_record = mysqli_query($conn , "SELECT * FROM festival_details_v4 WHERE id='$user_id'");
 
 
    while($row = mysqli_fetch_assoc($get_record)) { 

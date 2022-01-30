@@ -1,7 +1,7 @@
 <?php
 
 
-   $view_query = mysqli_query($conn,"SELECT * FROM festival_details_v3");
+   $view_query = mysqli_query($conn,"SELECT * FROM festival_details_v4");
          echo '
             <script>
                const festivalContent = [
@@ -12,6 +12,7 @@
             $db_title = $row["title"];
             $db_islandGroup =$row["islandGroup"];
             $db_date = $row["date"];
+            $db_dateFormat = $row["date_format"];
             $db_location = $row["location"];
             $db_paragraph1 = $row["paragraph1"];
             $db_paragraph2 = $row["paragraph2"];
@@ -24,6 +25,7 @@
             $db_imgItem4 = $row["imgItem4"];
             $db_ytPath = $row["ytPath"];
             $db_ref = $row["ref"];
+            
 
             echo "
             {
@@ -31,6 +33,7 @@
                title: \"$db_title\",
                islandGroup:  \"$db_islandGroup\",
                date:  \"$db_date\",
+               dateFormat: new Date(\"$db_dateFormat\"),
                location: \"$db_location\",
                paragraph1: \"$db_paragraph1\",
                paragraph2:  \"$db_paragraph2\",
@@ -51,7 +54,7 @@
          echo'
                ]
 
-            
+         
             </script>
          
          ';

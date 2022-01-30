@@ -1,9 +1,9 @@
-
 <?php
 
    include("./php/db_conn.php");
 
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -12,7 +12,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Festival Gallery | Ph Festival</title>
+   <title>Festival Gallery | Festival Ph</title>
    <link rel="icon" href="img/logo/Festival Ph - Logo 46x46.png">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css">
    <!-- global css -->
@@ -21,8 +21,10 @@
    <link rel="stylesheet" href="css/loader.css">
    <!-- navigation bar css -->
    <link rel="stylesheet" href="css/navbar.css">
+    <!-- navigation bar css -->
+    <link rel="stylesheet" href="css/festival.css">
    <!-- navigation bar css -->
-   <link rel="stylesheet" href="css/festival.css">
+   <link rel="stylesheet" href="css/festival-timeline.css">
    <!-- footer css -->
    <link rel="stylesheet" href="css/footer.css">
    <!-- global js -->
@@ -43,18 +45,20 @@
    <!-- <div class="page-loader-animation">
       <div></div>
    </div> -->
+  
+
 
       <div class="view-btns">
-         <a href="#">
-            <div class="icon-navbar-view timeline active-rn">
+         <a href="Festival-Gallery.php">
+            <div class="icon-navbar-view timeline">
 
                <div class="tooltip-timeline">Gallery View</div>
                <span><i class="fas fa-images"></i></span>
 
             </div>
          </a>
-         <a href="Festival-Timeline.php">
-            <div class="icon-navbar-view timeline">
+         <a href="#">
+            <div class="icon-navbar-view timeline active-rn">
 
                <div class="tooltip-timeline">Timeline View</div>
                <span><i class="fas fa-list-ul"></i></span>
@@ -67,7 +71,7 @@
       <!-- start | In Line navigation bar -->
       <header class="sticky">
          <nav class="navbar">
-            <a href="index.html" class="nav-branding"><img class="img-branding"
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="nav-branding"><img class="img-branding"
                   src="./img/logo/Festival Ph - Logo 96x96.png" alt="Festival Ph Logo" /><img class="img-branding"
                   src="https://fontmeme.com/permalink/220111/85ccb88541790fd7b5db3b2d38a6081d.png" alt="logo"
                   border="0">
@@ -76,11 +80,11 @@
             <div class="nav-menu">
                <ul class="sub-nav-menu">
                   <li class="nav-item"><a href="index.html" accesskey="1" tabindex="1" class="nav-link">Home</a></li>
-                  <li class="nav-item"><a href="Festival-Gallery.php" accesskey="2" tabindex="2" class="nav-link">Festival</a>
+                  <li class="nav-item"><a href="festival.html" accesskey="2" tabindex="2" class="nav-link">Festival</a>
                   </li>
                   <li class="nav-item"><a href="aboutus.html" accesskey="3" tabindex="3" class="nav-link">About
-                        Us</a></li>
-
+                        Us</a>
+                  </li>     
                </ul>
             </div>
 
@@ -95,48 +99,43 @@
       <!-- end | In Line navigation bar -->
       <div class="js-cont">
          <div class="js-scroll">
-            <div class="global-fest">
+            <div class="global-fest bg-color-el">
                <div class=" gall-title">
-                  <h1>Festival Gallery</h1>
+                  <h1>Festival Timeline</h1>
                   <div class="underline"></div>
                </div>
-
-               <div class="gall-btn-cont">
-                  <!-- <button class="filter-btn" type="button" data-id="all">All</button>
-            <button class="filter-btn" type="button" data-id="luzon">Luzon</button>
-            <button class="filter-btn" type="button" data-id="visayas">Visayas</button>
-            <button class="filter-btn" type="button" data-id="mindanao">Mindanao</button> -->
-
-               </div>
-
-               <div id="search-result-empty-state" class="search-empty-state">
-
-                  <img class="search-empty-icon" alt="Search no result illustration" src="./img/search-empty-icon.svg">
-
-                  <p class="l-font-size">Sorry we couldn't find any matches for <span class="bold"
-                        id="search-empty-state-keyword">not found</span></p>
-
-                  <p class="m-font-size grey">Please try searching with another term</p>
-
-               </div>
-               <main class="fest-gallery-main">
-                  <!-- <div class="festival-card">
-                     <div class="img-box">
-                        <img src="../Festival-Project/img/fest-gallery/kadayawan-img1.jpg" alt="">
-                     </div>
-                     <div class="fest-info">
-                        <h3>Pahayas Festival</h3>
-                        <div class="short-desc">
-                           <p>
-                              Measurements and ideas as the basis for weather prediction.
-                           </p>
-                        </div>
-                     </div>
-                  </div> -->
-               </main>
+               <div class="main-tl">
+                
+                  <div class="fest-tl-cont">
+                     <ul id = "fest-tl-lms">
+                        <li class="fest-tl-list">
+                           <h3 class="fest-tl-hd1">Higantes Festival</h3>
+                           <p class="fest-tl-hd2">November 23</p>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
+                           totam </p>
+                           <a href="#">Read More ></a>
+                           <span class="fest-tl-date">January</span>
+                           <span class="fest-tl-circle"></span>
+                        </li>
+                        <li class="fest-tl-list">
+                           <h3 class="fest-tl-hd1">Tuna Festival</h3>
+                           <p class="fest-tl-hd2">First week of September</p>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
+                           totam </p>
+                           <a href="#">Read More ></a>
+                           <span class="fest-tl-date">February</span>
+                           <span class="fest-tl-circle"></span>
+                        </li>
+                     
+                     </ul>
+                  </div>
+              </div>
             </div>
+
+              
          </div>
       </div>
+    
       <!--  FOOTER START -->
 
       <div class="footer">
@@ -155,9 +154,10 @@
                <ul class="footer-link">
                   <li><a href="#home">Home</a></li>
                   <span class="footer-bar"></span>
-                  <li><a href="Festival-Gallery.php">Festival</a></li>
+                  <li><a href="festival.html">Festival</a></li>
                   <span class="footer-bar"></span>
                   <li><a href="aboutus.html">About Us</a></li>
+
                </ul>
             </div>
 
@@ -179,58 +179,48 @@
       <!--   FOOTER END -->
    </div>
 
+   
    <?php
    
    include("./php/fetch_festival_details.php");
    
    ?>
    <script>
-       console.log(festivalContent);
+      // console.log(festivalContent);
       window.addEventListener("DOMContentLoaded", () => {
-         sortByName(festivalContent);
-         displayIslandGroupButtons(festivalContent);
-         displayFestivalItems(festivalContent);
-
-
-         searchButton();
-
+         sortMonth(festivalContent);
+         console.log(festivalContent);
+         displayFestivalTimelineItems(festivalContent);
       });
-
+      
    </script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-   
- 
-   <script src="./js/festival.js"></script>
+   <script src="./js/festival-timeline.js"></script>
    <script>
       
-      // // Function to display the gallery items
-
-      function displayFestivalItems(festivalItems) {
-         let displayFestival = festivalItems.map((item) => {
+      function displayFestivalTimelineItems(festivalItems){ 
+         let displayFestival = festivalItems.map((item) =>{
             return `
-            <a href="viewFestivalDetails.php?id=${item.id}">
-               <div class="festival-card">
-                  <div class="img-box">
-                     <img src="${item.img}" alt="${item.title}">
-                  </div>
-                  <div class="fest-info">
-                     <h3>${item.title}</h3>
-                     <div class="short-desc">
-                        <p>
-                        ${truncateWords(item.paragraph1)}
-                        </p>
-                     </div>
-                  </div>
-               </div>
-            </a>
+               <li class="fest-tl-list">
+                  <h3 class="fest-tl-hd1">${item.title}</h3>
+                  <p class="fest-tl-hd2">${item.date}</p>
+                  <p>${truncateWords(item.paragraph1)}</p>
+                  <a class="fest-tl-link" href="viewFestivalDetails.php?id=${item.id}">Read More <i class="fas fa-chevron-right"></i></a>
+               
+                  <span class="fest-tl-date">January</span>
+                  <span class="fest-tl-circle"></span>
+               </li>
             `;
          });
          displayFestival = displayFestival.join('');
          mainEl.innerHTML = displayFestival;
       }
+
    </script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
 
    <script type="text/javascript" src="js/global.js"></script>
+  
 
 </body>
 

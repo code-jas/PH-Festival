@@ -10,7 +10,7 @@ header {
   left: 0;
   width: 100%;
   transition: 0.6s;
-  z-index: 100000;
+  z-index: 100;
 }
 .sticky {
   background-color: var(--dark-blue-alt);
