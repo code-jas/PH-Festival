@@ -23,6 +23,8 @@
    <link rel="stylesheet" href="css/navbar.css">
    <!-- navigation bar css -->
    <link rel="stylesheet" href="css/festival.css">
+   <!-- backtotop bar css -->
+   <link rel="stylesheet" href="css/backtotop.css">
    <!-- footer css -->
    <link rel="stylesheet" href="css/footer.css">
    <!-- global js -->
@@ -91,6 +93,9 @@
             </div>
          </nav>
       </header>
+
+      <button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
+      
       <div class="comp-cont-el">
       <!-- end | In Line navigation bar -->
       <div class="js-cont">
@@ -193,10 +198,11 @@
 
 
          searchButton();
-
+         goingUpBtn();
       });
 
    </script>
+   
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
    
  

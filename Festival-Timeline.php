@@ -21,10 +21,12 @@
    <link rel="stylesheet" href="css/loader.css">
    <!-- navigation bar css -->
    <link rel="stylesheet" href="css/navbar.css">
-    <!-- navigation bar css -->
+    <!-- festival gallery bar css -->
     <link rel="stylesheet" href="css/festival.css">
-   <!-- navigation bar css -->
+   <!-- festival timeline bar css -->
    <link rel="stylesheet" href="css/festival-timeline.css">
+    <!-- backtotop bar css -->
+    <link rel="stylesheet" href="css/backtotop.css">
    <!-- footer css -->
    <link rel="stylesheet" href="css/footer.css">
    <!-- global js -->
@@ -95,6 +97,11 @@
             </div>
          </nav>
       </header>
+
+
+      <button id="back-to-top-btn"><i class="fas fa-angle-double-up"></i></button>
+
+
       <div class="comp-cont-el">
       <!-- end | In Line navigation bar -->
       <div class="js-cont">
@@ -108,7 +115,7 @@
                 
                   <div class="fest-tl-cont">
                      <ul id = "fest-tl-lms">
-                        <li class="fest-tl-list">
+                        <!-- <li class="fest-tl-list">
                            <h3 class="fest-tl-hd1">Higantes Festival</h3>
                            <p class="fest-tl-hd2">November 23</p>
                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
@@ -125,7 +132,7 @@
                            <a href="#">Read More ></a>
                            <span class="fest-tl-date">February</span>
                            <span class="fest-tl-circle"></span>
-                        </li>
+                        </li> -->
                      
                      </ul>
                   </div>
@@ -191,22 +198,24 @@
          sortMonth(festivalContent);
          console.log(festivalContent);
          displayFestivalTimelineItems(festivalContent);
+         filterMonthDisplay();
+         goingUpBtn();
       });
       
    </script>
-   <script src="./js/festival-timeline.js"></script>
+  
    <script>
-      
+      // ${getMonthInWord(item.dateFormat.getMonth())}
       function displayFestivalTimelineItems(festivalItems){ 
          let displayFestival = festivalItems.map((item) =>{
             return `
                <li class="fest-tl-list">
                   <h3 class="fest-tl-hd1">${item.title}</h3>
-                  <p class="fest-tl-hd2">${item.date}</p>
+                  <p class="fest-tl-hd2"></p>
                   <p>${truncateWords(item.paragraph1)}</p>
                   <a class="fest-tl-link" href="viewFestivalDetails.php?id=${item.id}">Read More <i class="fas fa-chevron-right"></i></a>
                
-                  <span class="fest-tl-date">January</span>
+                  <span class="fest-tl-date">${item.date}</span>
                   <span class="fest-tl-circle"></span>
                </li>
             `;
@@ -216,6 +225,7 @@
       }
 
    </script>
+    <script src="./js/festival-timeline.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 
