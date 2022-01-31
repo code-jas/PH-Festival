@@ -9,10 +9,13 @@ hamburger.addEventListener("click", () => {
    hamburger.classList.toggle("navbar-active");
    navMenu.classList.toggle("navbar-active");
    ++clickCount;
-   // console.log(clickCount);
+   console.log(clickCount);
    if (clickCount % 2 === 0) {
       document.querySelector("body").style.overflow = "auto";
+   
+
    } else {
+
       document.querySelector("body").style.overflow = "hidden";
    }
 })

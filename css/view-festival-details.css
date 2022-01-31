@@ -152,10 +152,15 @@
 }
 
 .image {
-  max-width: 100%;
-  height: auto;
-  margin: 2rem 0;
+  width: 100%;
+  height: 493px;
+  margin: 2rem auto;
   padding: 0 2rem;
+}
+.image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .fest-container h3 {
@@ -307,5 +312,12 @@
     font-size: 2.1rem;
     top: 5.5px;
     left: 25px;
+  }
+  .image {
+    max-width: 100%;
+    height: 450px;
+    margin: 2rem 0;
+    padding: 0 2rem;
+    object-fit: cover;
   }
 }

@@ -44,9 +44,7 @@
          <div class="box six"></div>
       </div>
    </div>
-   <!-- <div class="page-loader-animation">
-      <div></div>
-   </div> -->
+
   
 
 
@@ -73,7 +71,7 @@
       <!-- start | In Line navigation bar -->
       <header class="sticky">
          <nav class="navbar">
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="nav-branding"><img class="img-branding"
+            <a href="index.html" class="nav-branding"><img class="img-branding"
                   src="./img/logo/Festival Ph - Logo 96x96.png" alt="Festival Ph Logo" /><img class="img-branding"
                   src="https://fontmeme.com/permalink/220111/85ccb88541790fd7b5db3b2d38a6081d.png" alt="logo"
                   border="0">
@@ -115,25 +113,7 @@
                 
                   <div class="fest-tl-cont">
                      <ul id = "fest-tl-lms">
-                        <!-- <li class="fest-tl-list">
-                           <h3 class="fest-tl-hd1">Higantes Festival</h3>
-                           <p class="fest-tl-hd2">November 23</p>
-                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
-                           totam </p>
-                           <a href="#">Read More ></a>
-                           <span class="fest-tl-date">January</span>
-                           <span class="fest-tl-circle"></span>
-                        </li>
-                        <li class="fest-tl-list">
-                           <h3 class="fest-tl-hd1">Tuna Festival</h3>
-                           <p class="fest-tl-hd2">First week of September</p>
-                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
-                           totam </p>
-                           <a href="#">Read More ></a>
-                           <span class="fest-tl-date">February</span>
-                           <span class="fest-tl-circle"></span>
-                        </li> -->
-                     
+
                      </ul>
                   </div>
               </div>
@@ -150,7 +130,7 @@
 
             <!--  for quick links  -->
             <div class="footer-items">
-               <a href="https://fontmeme.com/script-fonts/" class="footer--logo"><img
+               <a href="index.html" class="footer--logo"><img
                      src="./img/logo/Festival Ph - Logo 96x96.png" alt="Festival Ph Logo" />
                </a>
                <img class="footer-img-branding"
@@ -196,7 +176,7 @@
       // console.log(festivalContent);
       window.addEventListener("DOMContentLoaded", () => {
          sortMonth(festivalContent);
-         console.log(festivalContent);
+         // console.log(festivalContent);
          displayFestivalTimelineItems(festivalContent);
          filterMonthDisplay();
          goingUpBtn();

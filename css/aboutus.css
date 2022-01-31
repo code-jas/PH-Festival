@@ -2,8 +2,9 @@
   background-image: url(../img/bg-about-section-desktop-view.jpg);
   background-size: cover;
   background-position: top;
-  min-height: 3240px;
+  min-height: 200vh;
 }
+
 .work-section {
   display: flex;
   flex-direction: column;
@@ -445,7 +446,7 @@
 
 @media only screen and (max-width: 1400px) {
   .about-main {
-    background-image: url(/Festival-Project/img/bg-about-section-mobile-view.jpg);
+    background-image: url(../img/bg-about-section-laptop-view.jpg);
     min-height: 2200px;
   }
 
@@ -490,6 +491,10 @@
 }
 
 @media only screen and (max-width: 990px) {
+  .about-main {
+    background-image: url(../img/bg-about-section-laptop-view.jpg);
+    min-height: 2200px;
+  }
   .team-section {
     min-height: 1900px;
   }
@@ -501,8 +506,8 @@
 
 @media only screen and (max-width: 800px) {
   .about-main {
-    background-image: url(https://firebasestorage.googleapis.com/v0/b/festival-img.appspot.com/o/fest-features%2Fbg-about-section-mobile-view.jpg?alt=media&token=78c2276c-5f92-4240-bcee-8ea687ba9a34);
-    min-height: 400vh;
+    background-image: url(../img/bg-about-section-mobile-view.jpg);
+    min-height: 4200px;
   }
 
   .work-section h1 {
@@ -581,7 +586,7 @@
 
 @media only screen and (max-width: 660px) {
   .about-main {
-    min-height: 540vh;
+    min-height: 5800px;
   }
   .team-section {
     min-height: 3650px;
@@ -589,22 +594,37 @@
   .team-cont {
     gap: 9rem;
   }
+  .contact-us-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .input-icon {
+    width: 90%;
+  }
   .contact-text-area {
     height: 112px;
   }
 }
 @media only screen and (max-width: 570px) {
   .about-main {
-    min-height: 530vh;
+    min-height: 5700px;
+  }
+  .contact-us-container {
+    width: 80%;
+    margin: 0 auto;
   }
   .contact-text-area {
     height: 130px;
+  }
+  .input-icon {
+    width: 90%;
   }
 }
 
 @media only screen and (max-width: 500px) {
   .about-main {
-    min-height: 530vh;
+    min-height: 5800px;
   }
   .work-section h1 {
     font-size: 10vw;

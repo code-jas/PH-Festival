@@ -74,7 +74,7 @@
                   src="https://fontmeme.com/permalink/220111/85ccb88541790fd7b5db3b2d38a6081d.png" alt="logo"
                   border="0">
             </a>
-
+ 
             <div class="nav-menu">
                <ul class="sub-nav-menu">
                   <li class="nav-item"><a href="index.html" accesskey="1" tabindex="1" class="nav-link">Home</a></li>
@@ -107,10 +107,6 @@
                </div>
 
                <div class="gall-btn-cont">
-                  <!-- <button class="filter-btn" type="button" data-id="all">All</button>
-            <button class="filter-btn" type="button" data-id="luzon">Luzon</button>
-            <button class="filter-btn" type="button" data-id="visayas">Visayas</button>
-            <button class="filter-btn" type="button" data-id="mindanao">Mindanao</button> -->
 
                </div>
 
@@ -125,19 +121,7 @@
 
                </div>
                <main class="fest-gallery-main">
-                  <!-- <div class="festival-card">
-                     <div class="img-box">
-                        <img src="../Festival-Project/img/fest-gallery/kadayawan-img1.jpg" alt="">
-                     </div>
-                     <div class="fest-info">
-                        <h3>Pahayas Festival</h3>
-                        <div class="short-desc">
-                           <p>
-                              Measurements and ideas as the basis for weather prediction.
-                           </p>
-                        </div>
-                     </div>
-                  </div> -->
+
                </main>
             </div>
          </div>
@@ -149,7 +133,7 @@
 
             <!--  for quick links  -->
             <div class="footer-items">
-               <a href="https://fontmeme.com/script-fonts/" class="footer--logo"><img
+               <a href="index.html" class="footer--logo"><img
                      src="./img/logo/Festival Ph - Logo 96x96.png" alt="Festival Ph Logo" />
                </a>
                <img class="footer-img-branding"
@@ -190,7 +174,7 @@
    
    ?>
    <script>
-       console.log(festivalContent);
+      //  console.log(festivalContent);
       window.addEventListener("DOMContentLoaded", () => {
          sortByName(festivalContent);
          displayIslandGroupButtons(festivalContent);
@@ -237,7 +221,15 @@
    </script>
 
    <script type="text/javascript" src="js/global.js"></script>
-
+   <script>
+      hamburger.addEventListener("click", () => {
+       if (clickCount % 2 === 0) {
+         document.querySelector(".view-btns").style.display = "flex";
+       }else{ 
+         document.querySelector(".view-btns").style.display = "none";
+       }
+      });
+   </script>
 </body>
 
 </html>

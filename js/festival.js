@@ -108,8 +108,9 @@ function searchButton() {
       searchFest.classList.toggle('search-active');
       btns.forEach((btn) => btn.classList.toggle('search-hide'))
       ++clickCount;
+      
       if (clickCount % 2 == 0) {
-
+         searchEmptyEl.style.display = 'none';
          document.getElementById('search-inp-fest').value = '';
          const acts = document.querySelector('.active');
 
@@ -226,3 +227,10 @@ function goingUpBtn(){
       return c/2*(t*t*t + 2) + b;
    };
 }
+
+
+
+
+
+
+

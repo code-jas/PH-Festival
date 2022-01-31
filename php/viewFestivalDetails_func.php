@@ -34,7 +34,10 @@
                <p class=\"fest-parag\">$db_paragraph1</p>
                <br>
                <p class=\"fest-parag\">$db_paragraph2</p>
-               <img src=\"$db_img\" alt=\"$db_title\" class=\"image\">
+               <div class=\"image\">
+               <img src=\"$db_img\" alt=\"$db_title\">
+               </div>
+             
                <p class=\"fest-parag\"> $db_paragraph3</p>
                <br>
                <p class=\"fest-parag\">$db_paragraph4</p>
@@ -56,7 +59,6 @@
                   </div>
                   <div class=\"box\">
                      <img src=\"$db_imgItem4\" />
-
                   </div>
                </div>
 
