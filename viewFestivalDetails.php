@@ -1,8 +1,6 @@
 
 <?php
-
-include("./php/db_conn.php");
-
+   include("./php/db_conn.php");
 ?>
 
 
