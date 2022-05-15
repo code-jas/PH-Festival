@@ -93,6 +93,7 @@ function animateImage(images) {
 }
 
 
+
 function searchButton() {
    // declaration of DOM
    const searchIcon = document.querySelector('.icon-font-awesome');
@@ -136,6 +137,7 @@ function searchButton() {
       }
    }
 
+   search button
    //functions for search button
    searchBar.addEventListener('keyup', (e) => {
 

@@ -12,7 +12,7 @@ hamburger.addEventListener("click", () => {
    console.log(clickCount);
    if (clickCount % 2 === 0) {
       document.querySelector("body").style.overflow = "auto";
-   
+
 
    } else {
 
