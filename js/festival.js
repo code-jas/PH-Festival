@@ -137,7 +137,7 @@ function searchButton() {
       }
    }
 
-   search button
+  
    //functions for search button
    searchBar.addEventListener('keyup', (e) => {
 

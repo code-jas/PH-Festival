@@ -14,6 +14,7 @@
 
   margin: 0 auto;
 }
+
 .work-section h1 {
   color: var(--blue-alt);
   font-size: 4.5vw;
@@ -96,6 +97,7 @@
   font: 400 1.2rem "Montserrat", sans-serif;
   margin-bottom: 6px;
 }
+
 .team-details h4 {
   color: var(--dark-gray-alt);
   text-align: center;
@@ -110,6 +112,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .team-socmed-link a {
   text-decoration: none;
 }
@@ -205,6 +208,7 @@
   background-color: #de463b;
   color: #ffffff;
 }
+
 /* 
 
 .about-contact-us{
@@ -273,19 +277,20 @@
   font-size: 3rem;
   margin-top: 1rem;
 }
+
 .contact-us-section p {
   text-align: center;
   font-size: 1rem;
   padding: 0 2rem;
   margin: 1rem 0 3rem 0;
 }
+
 .contact-us-container {
   display: flex;
   width: 70%;
   height: auto;
   color: #ffffff;
-  background: url(https://www.uidesigndaily.com/public/img/left-circles.svg)
-      no-repeat left bottom,
+  background: url(https://www.uidesigndaily.com/public/img/left-circles.svg) no-repeat left bottom,
     linear-gradient(90deg, #ba81ff 0%, #ff6a95 99%);
   box-shadow: 0 20px 30px -19px rgba(160, 44, 219, 0.58);
   border-radius: 15px;
@@ -299,6 +304,7 @@
   flex-direction: column;
   width: 50%;
 }
+
 .contact-info h3 {
   font-size: 0.7rem;
   font-weight: 600;
@@ -325,6 +331,7 @@
 .input-icon textarea[type="text"] {
   padding-left: 50px;
 }
+
 .input-icon textarea[type="text"] {
   padding-top: 13px;
 }
@@ -388,9 +395,11 @@
 .contact-text-area:focus {
   outline: none;
 }
+
 .contact-textbox input {
   height: 70px;
 }
+
 .contact-textbox:focus {
   outline: none;
 }
@@ -400,6 +409,7 @@
   flex-direction: column;
   width: 50%;
 }
+
 .contact-description h3 {
   padding-left: 1rem;
 }
@@ -410,6 +420,7 @@
   font-size: 1.6rem;
   margin-top: 0rem;
 }
+
 .contact-map h3 {
   text-align: center;
 }
@@ -419,6 +430,7 @@
   text-align: left;
   padding: 0 3rem;
 }
+
 .contact-map .img-card {
   width: 70%;
   height: 200px;
@@ -437,9 +449,11 @@
   vertical-align: middle;
   transition: all 0.3s ease;
 }
+
 .img-card:hover {
   transform: scale(1.1);
 }
+
 .img-card:hover img {
   transform: scale(1.3);
 }
@@ -453,15 +467,18 @@
   .work-section {
     max-width: 800px;
   }
+
   .work-section h1 {
     font-size: 4.7vw;
     margin: 3rem 0 7px 0;
   }
+
   .work-section p {
     font-size: 1.4vw;
     margin: 3rem 0 7px 0;
     padding: 0 3rem;
   }
+
   .team-section {
     min-height: 1350px;
   }
@@ -474,6 +491,7 @@
     margin-top: 3rem;
   }
 }
+
 @media only screen and (max-width: 1170px) {
   .contact-info h3 {
     margin: 0.5rem 0;
@@ -484,6 +502,7 @@
     padding-left: 1rem;
     width: 100%;
   }
+
   .input-icon input[type="text"],
   .input-icon textarea[type="text"] {
     padding-left: 40px;
@@ -495,6 +514,7 @@
     background-image: url(../img/bg-about-section-laptop-view.jpg);
     min-height: 2200px;
   }
+
   .team-section {
     min-height: 1900px;
   }
@@ -514,11 +534,13 @@
     font-size: 7vw;
     margin: 3rem 0 7px 0;
   }
+
   .work-section p {
     font-size: 2.6vw;
     margin: 3rem 0 7px 0;
     padding: 0 20%;
   }
+
   .work-section img {
     margin-top: 5rem;
   }
@@ -534,19 +556,23 @@
   .contact-info {
     width: 80%;
   }
+
   .contact-info h3 {
     font-size: 2.5vw;
     text-align: center;
   }
+
   .contact-info-details {
     margin-top: 1.5rem;
     padding: 0;
     align-items: center;
     width: 100%;
   }
+
   .input-icon {
     width: 80%;
   }
+
   .input-icon i {
     left: 0.2rem;
   }
@@ -554,6 +580,7 @@
   .contact-details-label {
     margin: 0;
   }
+
   .contact-textbox,
   .contact-text-area {
     width: 100%;
@@ -563,6 +590,7 @@
   .contact-text-area {
     padding: 0px 15px;
   }
+
   .input-icon textarea[type="text"] {
     padding-top: 5px;
   }
@@ -570,15 +598,18 @@
   .left-cont {
     width: 100%;
   }
+
   .contact-description h3 {
     padding: 0;
     text-align: center;
     font-size: 4vw;
   }
+
   .contact-description p {
     font-size: 1.7vw;
     text-align: center;
   }
+
   .contact-map h3 {
     font-size: 3.5vw;
   }
@@ -588,12 +619,15 @@
   .about-main {
     min-height: 5800px;
   }
+
   .team-section {
     min-height: 3650px;
   }
+
   .team-cont {
     gap: 9rem;
   }
+
   .contact-us-container {
     width: 80%;
     margin: 0 auto;
@@ -602,21 +636,26 @@
   .input-icon {
     width: 90%;
   }
+
   .contact-text-area {
     height: 112px;
   }
 }
+
 @media only screen and (max-width: 570px) {
   .about-main {
     min-height: 5700px;
   }
+
   .contact-us-container {
     width: 80%;
     margin: 0 auto;
   }
+
   .contact-text-area {
     height: 130px;
   }
+
   .input-icon {
     width: 90%;
   }
@@ -626,31 +665,40 @@
   .about-main {
     min-height: 5800px;
   }
+
   .work-section h1 {
     font-size: 10vw;
   }
+
   .work-section p {
     font-size: 1rem;
   }
+
   .team-section h1 {
     font-size: 8vw;
   }
+
   .team-section h4 {
     font-size: 3.5vw;
   }
+
   .team-details h4 {
     font-size: 3vw;
   }
+
   .contact-us-container {
     width: 80%;
     margin: 0 auto;
   }
+
   .contact-us-section h1 {
     font-size: 8vw;
   }
+
   .contact-us-section p {
     font-size: 3vw;
   }
+
   .contact-description p {
     font-size: 0.7rem;
     padding: 0 1rem;
@@ -659,6 +707,7 @@
   .input-icon {
     width: 100%;
   }
+
   .contact-text-area {
     height: 130px;
   }
